@@ -1,0 +1,23 @@
+/*html(head ;
+body(div("hello,world!") ;
+div("fuck")))*/
+<html>
+/*head ;
+body(div("hello,world!") ;
+div("fuck"))*/
+ <head>
+ </head>
+/*body(div("hello,world!") ;
+div("fuck"))*/
+<body>
+/*div("hello,world!") ;
+div("fuck")*/
+ <div>
+  hello,world!
+ </div>
+/*div("fuck")*/
+<div>
+ fuck
+</div>
+</body>
+</html>
