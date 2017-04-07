@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<title>Learn</title>
+		<script type="text/javascript" src="http://cn.vuejs.org/js/vue.js"></script>
+	</head>
+	<div id="content">
+		<div class="sub" v-for="u in datas">
+			<p>{{u.name}}</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+	var datas = [
+		{name:"Guo"},
+		{name:"Lee"}
+	]
+
+	new Vue({
+		el: '#content',
+		data: {
+			datas: datas
+		}
+	})
+	</script>
+</html>
